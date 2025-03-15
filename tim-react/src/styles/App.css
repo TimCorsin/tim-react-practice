@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #282D35;
+}
+/* =====================
+    Header Section
+======================== */
+
+header{
+  /* position: absolute; */
+  left: 0px;
+  top: 0px;
+  height: 6rem;
+    background: #21222A;
+  width: 100%;
+}
+.header-navbar{
+  display: inline-flex;
+
+}
+.header-navbar img{
+  width: 6rem;
+  height: 6rem;
+  /* flex-shrink: 0; */
+  color: #00D8FF;
+}
+
+.header-navbar h1{
+  color: #61DAFB;
+  font-family: Inter;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.06956rem;
+}
+
+/* =====================
+      Main Section
+======================== */
+
+.facts{
+  margin: 5rem;
+}
+.facts-title{
+  color: #FFF;
+  font-family: Inter;
+  font-size: 2.44125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.12206rem;
+}
+.react-facts{
+  color: #FFF;
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+li{
+  margin: .5rem auto;
+}
+li::marker{
+  color: #61DAFB;
+  font-size: 1rem;
+}
+.facts img{
+  height: 195px;
+  /* z-index: 1; */
+  position: absolute;
+  top: 225px;
+  right: 0px;
+}

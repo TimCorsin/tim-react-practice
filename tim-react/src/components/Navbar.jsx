@@ -1,5 +1,16 @@
+import "../styles/App.css"
+import logo from "../assets/images/logo.svg"
+
 export default function Navbar() {
     return (
-        <h1>Navbar component here</h1>
+        <> 
+        <header>
+            <nav className="header-navbar">
+                <img src={logo} alt="React Logo"/>        
+                <h1>ReactFacts</h1> 
+            </nav>
+        </header>
+
+        </>
     )
 }

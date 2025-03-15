@@ -4,7 +4,7 @@ import group from "../assets/images/group.svg"
 export default function Main() {
     return (
         <>
-            <section className="facts">
+            <main className="facts">
                 <h1 className="facts-title">Fun facts about React</h1>
                 <ul className="react-facts">
                     <li>Was first released in 2013</li>
@@ -14,7 +14,7 @@ export default function Main() {
                     <li>Powers thousands of enterprise apps, including mobile apps</li>
                 </ul>
                 <img src={group} className="background-logo" alt="React Logo"/>
-            </section>
+            </main>
         </>     
     )
 }
